@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>counter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/counting.png" type="image/x-icon">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <h2 class="heading">Increment & Decrement</h2>
+            <div class="display">
+                <h2 class="number">
+                    0
+                </h2>
+            </div>
+            <div class="counterbody">
+
+                <button class="btns1" onclick="decrement()">
+                    <svg class="btns" xmlns="http://www.w3.org/2000/svg" width="48px" height="48px"  enable-background="new 0 0 512 512" viewBox="0 0 512 512" id="minus"><path fill="#231f20" d="M467.4,212.4H42.9c-24.2,0-43.7,19.6-43.7,43.7s19.6,43.7,43.7,43.7h424.5c24.2,0,43.7-19.6,43.7-43.7
+                        S491.5,212.4,467.4,212.4z"></path>
+                    </svg>
+                </button>
+
+                <button class="btns1" onclick="increment()" >
+                    <svg class="btns"  xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 512 512" viewBox="0 0 512 512" id="plus"><path fill="#231f20" d="M468.3,212.7H305.2v-169c0-24.2-19.6-43.8-43.8-43.8c-24.2,0-43.8,19.6-43.8,43.8v169h-174
+                        C19.6,212.7,0,232.3,0,256.5c0,24.2,19.6,43.8,43.8,43.8h174v168c0,24.2,19.6,43.8,43.8,43.8c24.2,0,43.8-19.6,43.8-43.8v-168h163.1
+                        c24.2,0,43.8-19.6,43.8-43.8C512,232.3,492.5,212.7,468.3,212.7z"></path>
+                    </svg>
+                </button>
+
+                <button class="reset" onclick="reset()">
+                    <svg  xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="none" viewBox="0 0 24 24" id="restart"><path fill="#111" d="M18.2577 3.50828C18.538 3.62437 18.7207 3.89785 18.7207 4.20119V8.44383C18.7207 8.85805 18.3849 9.19383 17.9707 9.19383H13.728C13.4247 9.19383 13.1512 9.0111 13.0351 8.73085C12.9191 8.45059 12.9832 8.128 13.1977 7.9135L14.8007 6.3105C12.1674 5.20912 9.01606 5.7309 6.87348 7.87348C4.04217 10.7048 4.04217 15.2952 6.87348 18.1265C9.70478 20.9578 14.2952 20.9578 17.1265 18.1265C18.7727 16.4803 19.4622 14.2401 19.1935 12.0937C19.142 11.6827 19.4335 11.3078 19.8445 11.2563C20.2555 11.2049 20.6304 11.4963 20.6819 11.9073C21.0057 14.4934 20.1746 17.1997 18.1872 19.1872C14.7701 22.6043 9.2299 22.6043 5.81282 19.1872C2.39573 15.7701 2.39573 10.2299 5.81282 6.81282C8.55119 4.07444 12.6515 3.5312 15.9309 5.18028L17.4404 3.67086C17.6549 3.45637 17.9774 3.3922 18.2577 3.50828Z"></path>
+                    </svg>
+                </button>
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
